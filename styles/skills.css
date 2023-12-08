@@ -32,7 +32,19 @@
     margin-bottom: 15px;
 }
 
-.skills__text {
-    color: var(--secondary-text-color);
-    text-align: justify;
+
+.skill__label{
+    background: var(--background-label);
+    color: white;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid transparent;
+    padding: 3px 15px;
+    text-align: center;
+}
+
+.skills__wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
 }

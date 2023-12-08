@@ -13,6 +13,7 @@ body {
     --secondary-text-color: #5c5c62;
     --durability-text-color: #6a737d9c;
     --icon-color: #6a737d;
+    --background-label: rgb(152 157 166);
     --border-color: #ff9a0045;
     --text-decoration-color: #ff9a00;
 }
@@ -43,9 +44,11 @@ body {
     max-width: 900px;
 }
 
-.resume__block {
+.resume-header {
     display: flex;
     justify-content: space-between;
+}
+.resume__block {
     border-bottom: 3px solid var(--border-color);
     padding-bottom: 30px;
     margin-bottom: 15px;
