@@ -66,3 +66,13 @@
     border: 3px solid;
     border-color: var(--text-decoration-color);
 }
+@media screen and (max-width: 480px){
+    .contact-info__inner{
+        flex-direction: column;
+        text-align: center;
+        font-size: 12px;
+    }
+    .contact-info__avatar{
+        margin-right: 0;
+    }
+}
