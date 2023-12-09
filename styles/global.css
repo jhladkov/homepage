@@ -8,6 +8,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.5;
+    color: var(--secondary-text-color);
 
     --primary-text-color: #181820;
     --secondary-text-color: #5c5c62;
@@ -91,3 +92,9 @@ ul{
     list-style-position: inside;
     list-style-type: '\2713';
 }
+#showed{
+    transition: all 1s;
+    transform: translateX(0);
+    opacity: 1;
+}
+
