@@ -25,9 +25,6 @@ const onEntry = (entry, observer) => {
                     break
             }
         }
-        if (!item.isIntersecting) {
-            item.target.id = ''
-        }
     })
 }
 

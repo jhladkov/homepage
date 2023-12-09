@@ -1,4 +1,3 @@
-/*Experience and additional info styles*/
 
 .experiences {
     opacity: 0;
@@ -6,49 +5,12 @@
     display: grid;
     gap: 20px;
 }
-
 .experiences__header {
     text-align: left;
 }
-
-/*.experiences__company-header-durability {*/
-/*    color: var(--durability-text-color);*/
-/*    text-align: left;*/
-/*    margin-bottom: 10px;*/
-/*    font-size: 15px;*/
-/*}*/
-
-/*.experiences__company-header-name {*/
-/*    color: var(--primary-text-color);*/
-/*    text-decoration-color: var(--text-decoration-color);*/
-/*    text-decoration-line: underline;*/
-/*    text-align: left;*/
-/*    margin-bottom: 20px;*/
-/*}*/
-
-/*.experiences__company-project {*/
-/*    margin-left: 15px;*/
-/*    margin-bottom: 25px;*/
-/*}*/
-
-/*.experiences__company-project-role {*/
-/*    color: var(--durability-text-color);*/
-/*    text-align: left;*/
-/*    margin-bottom: 10px;*/
-/*    font-size: 15px;*/
-/*}*/
-
-/*.experiences__company-project-name {*/
-/*    color: var(--primary-text-color);*/
-/*    text-align: left;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
-/*.experiences__company-project-responsibilities {*/
-/*    color: var(--secondary-text-color);*/
-/*    padding-left: 20px;*/
-/*}*/
-
+.experiences__info-list-item{
+    position: relative;
+}
 .additional-info {
     transform: translateX(100px);
     opacity: 0;
@@ -56,43 +18,18 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
-/*.additional-info.showed{*/
-/*    transition: all 1s;*/
-/*    transform: translateX(0);*/
-/*    opacity: 1;*/
-/*}*/
-
-/*.additional-info__education {*/
-/*    margin-bottom: 20px;*/
-/*}*/
-
 .additional-info__education-header {
     text-align: left;
 }
-
-
-/*.additional-info__education-university-speciality {*/
-/*    color: var(--primary-text-color);*/
-/*    text-align: left;*/
-/*    margin-bottom: 10px;*/
-/*}*/
-
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
 }
-
-/*.additional-info__languages {*/
-/*    margin-bottom: 5px;*/
-/*}*/
-
 .additional-info__languages-header {
     text-align: left;
 }
-
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
-
 .main-info{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(267px,1fr));
