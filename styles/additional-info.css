@@ -5,12 +5,15 @@
     display: grid;
     gap: 20px;
 }
+
 .experiences__header {
     text-align: left;
 }
+
 .experiences__info-list-item{
     position: relative;
 }
+
 .additional-info {
     transform: translateX(100px);
     opacity: 0;
@@ -18,18 +21,23 @@
     grid-template-rows: repeat(2, 1fr);
     gap: 20px;
 }
+
 .additional-info__education-header {
     text-align: left;
 }
+
 .additional-info__education-university-name {
     color: var(--secondary-text-color);
 }
+
 .additional-info__languages-header {
     text-align: left;
 }
+
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
 .main-info{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(267px,1fr));

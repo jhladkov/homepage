@@ -1,5 +1,5 @@
-@import "global.css";
-@import "contact.css";
-@import "skills.css";
-@import "additional-info.css";
-@import "cats.css";
+@import url("global.css");
+@import url("contact.css");
+@import url("skills.css");
+@import url("additional-info.css");
+@import url("cats.css");
