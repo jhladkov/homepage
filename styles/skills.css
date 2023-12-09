@@ -52,3 +52,9 @@
     }
 }
 
+@media  screen and (width <= 480px){
+    .intro_text {
+        word-break: break-all;
+    }
+}
+
