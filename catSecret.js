@@ -11,7 +11,7 @@ cats.forEach(cat => cat.addEventListener('click', (e) => {
     if (counter === 3) {
         wrapper.style.display = 'block'
         wrapper.style.textAlign = 'center'
-        wrapper.innerHTML = 'done'
+        wrapper.innerHTML = 'You did it :0'
         window.open('https://flappy-bulka.vercel.app/')
     }
 }))

@@ -1,10 +1,11 @@
 .contact-info__cat{
-    left: 18%;
+    position: absolute;
+    left: 50%;
     top: -25%;
+    transform: translateX(-50%);
 }
 
 .cat{
-    position: absolute;
     max-width: 50px;
     z-index: -1;
 }
@@ -22,25 +23,22 @@
     transform: translate(-50%);
     display: flex;
     align-items: center;
-    cursor: not-allowed;
+    cursor: pointer;
 }
 
 .secret__wrapper {
-    width: 100%;
-    height: 100%;
     position: relative;
     display: flex;
     align-items: center;
-    flex-direction: row-reverse;
+    justify-content: center;
+    flex: 1;
 }
 
 .secret__label {
-    position: absolute;
     display: flex;
     align-items: center;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    justify-content: center;
+    margin-right: 10px;
 }
 
 .secret__cat{
@@ -70,9 +68,7 @@
 }
 
 .addition__cat, .experiences__cat{
-    z-index: 1000;
     max-width: 20px;
-    top: 0;
 }
 
 .experiences__cat{
