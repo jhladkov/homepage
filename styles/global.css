@@ -68,9 +68,9 @@ body {
         margin-bottom: 20px;
     }
 
-    .experiences {
-        margin-right: 0;
-    }
+    /*.experiences {*/
+    /*    margin-right: 0;*/
+    /*}*/
 }
 .title{
     color: var(--secondary-text-color);

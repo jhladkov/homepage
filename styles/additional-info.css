@@ -1,8 +1,8 @@
 /*Experience and additional info styles*/
 
 .experiences {
-    flex: 1 1 60%;
-    margin-right: 50px;
+    display: grid;
+    gap: 20px;
 }
 
 .experiences__header {
@@ -48,12 +48,14 @@
 /*}*/
 
 .additional-info {
-    flex: 1 1 40%;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 20px;
 }
 
-.additional-info__education {
-    margin-bottom: 20px;
-}
+/*.additional-info__education {*/
+/*    margin-bottom: 20px;*/
+/*}*/
 
 .additional-info__education-header {
     text-align: left;
@@ -70,9 +72,9 @@
     color: var(--secondary-text-color);
 }
 
-.additional-info__languages {
-    margin-bottom: 5px;
-}
+/*.additional-info__languages {*/
+/*    margin-bottom: 5px;*/
+/*}*/
 
 .additional-info__languages-header {
     text-align: left;
@@ -80,4 +82,11 @@
 
 .additional-info__languages-item {
     color: var(--secondary-text-color);
+}
+
+.main-info{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(267px,1fr));
+    gap: 20px;
+    grid-template-rows: repeat(auto-fill, minmax(200px, 1fr));
 }
