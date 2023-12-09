@@ -1,0 +1,85 @@
+.contact-info__cat{
+    left: 18%;
+    top: -25%;
+}
+
+.cat{
+    position: absolute;
+    max-width: 50px;
+    z-index: -1;
+}
+
+.secret{
+    animation: gradientShadow 3s infinite alternate;
+    width: 145px;
+    height: 50px;
+    padding: 10px 20px;
+    border: 1px solid snow;
+    background: aliceblue;
+    position: absolute;
+    top: 10px;
+    left: 50%;
+    transform: translate(-50%);
+    display: flex;
+    align-items: center;
+    cursor: not-allowed;
+}
+
+.secret__wrapper {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+.secret__label {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.secret__cat{
+    max-width: 20px;
+}
+
+.secret__indicator{
+    margin-right: 5px;
+}
+
+.secret-locked{
+    margin-left: 5px;
+}
+
+@keyframes gradientShadow {
+    0% {
+        box-shadow: 0 0 15px rgb(255 0 0 / 50%);
+    }
+
+    50% {
+        box-shadow: 0 0 15px rgb(0 255 0 / 50%);
+    }
+
+    100% {
+        box-shadow: 0 0 15px rgb(0 0 255 / 50%);
+    }
+}
+
+.addition__cat, .experiences__cat{
+    z-index: 1000;
+    max-width: 20px;
+    top: 0;
+}
+
+.experiences__cat{
+    top: auto;
+}
+
+.additions-info{
+    position: relative;
+}
+
